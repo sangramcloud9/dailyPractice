@@ -1,0 +1,120 @@
+               total        used        free      shared  buff/cache   available
+Mem:               0           0           0           0           0           0
+Swap:              0           0           0
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.8G  2.4G  4.4G  35% /
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           192M  860K  191M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/xvda16     881M  133M  687M  17% /boot
+/dev/xvda15     105M  6.1M   99M   6% /boot/efi
+tmpfs            96M   12K   96M   1% /run/user/1000
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 08:21 ?        00:00:05 /sbin/init
+root           2       0  0 08:21 ?        00:00:00 [kthreadd]
+root           3       2  0 08:21 ?        00:00:00 [pool_workqueue_release]
+root           4       2  0 08:21 ?        00:00:00 [kworker/R-rcu_g]
+root           5       2  0 08:21 ?        00:00:00 [kworker/R-rcu_p]
+root           6       2  0 08:21 ?        00:00:00 [kworker/R-slub_]
+root           7       2  0 08:21 ?        00:00:00 [kworker/R-netns]
+root          10       2  0 08:21 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          12       2  0 08:21 ?        00:00:00 [kworker/R-mm_pe]
+root          13       2  0 08:21 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          14       2  0 08:21 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          15       2  0 08:21 ?        00:00:00 [ksoftirqd/0]
+root          16       2  0 08:21 ?        00:00:00 [rcu_sched]
+root          17       2  0 08:21 ?        00:00:00 [migration/0]
+root          18       2  0 08:21 ?        00:00:00 [idle_inject/0]
+root          19       2  0 08:21 ?        00:00:00 [cpuhp/0]
+root          20       2  0 08:21 ?        00:00:00 [kdevtmpfs]
+root          21       2  0 08:21 ?        00:00:00 [kworker/R-inet_]
+root          23       2  0 08:21 ?        00:00:00 [kauditd]
+root          24       2  0 08:21 ?        00:00:00 [khungtaskd]
+root          25       2  0 08:21 ?        00:00:00 [oom_reaper]
+root          27       2  0 08:21 ?        00:00:00 [kworker/R-write]
+root          28       2  0 08:21 ?        00:00:00 [kcompactd0]
+root          29       2  0 08:21 ?        00:00:00 [ksmd]
+root          30       2  0 08:21 ?        00:00:00 [khugepaged]
+root          31       2  0 08:21 ?        00:00:00 [kworker/R-kinte]
+root          32       2  0 08:21 ?        00:00:00 [kworker/R-kbloc]
+root          33       2  0 08:21 ?        00:00:00 [kworker/R-blkcg]
+root          34       2  0 08:21 ?        00:00:00 [irq/9-acpi]
+root          35       2  0 08:21 ?        00:00:00 [xen-balloon]
+root          36       2  0 08:21 ?        00:00:00 [kworker/R-tpm_d]
+root          37       2  0 08:21 ?        00:00:00 [kworker/R-ata_s]
+root          38       2  0 08:21 ?        00:00:00 [kworker/R-md]
+root          39       2  0 08:21 ?        00:00:00 [kworker/R-md_bi]
+root          40       2  0 08:21 ?        00:00:00 [kworker/R-edac-]
+root          41       2  0 08:21 ?        00:00:00 [kworker/R-devfr]
+root          42       2  0 08:21 ?        00:00:00 [watchdogd]
+root          43       2  0 08:21 ?        00:00:00 [kworker/0:1H-kblockd]
+root          44       2  0 08:21 ?        00:00:00 [kswapd0]
+root          45       2  0 08:21 ?        00:00:00 [ecryptfs-kthread]
+root          46       2  0 08:21 ?        00:00:00 [kworker/R-kthro]
+root          47       2  0 08:21 ?        00:00:00 [kworker/R-acpi_]
+root          48       2  0 08:21 ?        00:00:00 [xenbus]
+root          49       2  0 08:21 ?        00:00:00 [xenwatch]
+root          50       2  0 08:21 ?        00:00:00 [kworker/R-nvme-]
+root          51       2  0 08:21 ?        00:00:00 [kworker/R-nvme-]
+root          52       2  0 08:21 ?        00:00:00 [kworker/R-nvme-]
+root          53       2  0 08:21 ?        00:00:00 [kworker/R-nvme-]
+root          54       2  0 08:21 ?        00:00:00 [scsi_eh_0]
+root          55       2  0 08:21 ?        00:00:00 [kworker/R-scsi_]
+root          56       2  0 08:21 ?        00:00:00 [scsi_eh_1]
+root          57       2  0 08:21 ?        00:00:00 [kworker/R-scsi_]
+root          58       2  0 08:21 ?        00:00:00 [kworker/R-mld]
+root          59       2  0 08:21 ?        00:00:00 [kworker/R-ipv6_]
+root          66       2  0 08:21 ?        00:00:00 [kworker/R-kstrp]
+root          68       2  0 08:21 ?        00:00:00 [kworker/u31:0]
+root          81       2  0 08:21 ?        00:00:00 [kworker/R-charg]
+root          82       2  0 08:21 ?        00:00:00 [jbd2/xvda1-8]
+root          83       2  0 08:21 ?        00:00:00 [kworker/R-ext4-]
+root         122       1  0 08:21 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root         142       2  0 08:21 ?        00:00:00 [kworker/0:2-cgwb_release]
+root         143       2  0 08:21 ?        00:00:00 [kworker/R-kmpat]
+root         144       2  0 08:21 ?        00:00:00 [kworker/R-kmpat]
+root         145       2  0 08:21 ?        00:00:00 [kworker/u30:3-events_power_efficient]
+root         182       1  0 08:21 ?        00:00:00 /sbin/multipathd -d -s
+root         186       1  0 08:21 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root         206       2  0 08:21 ?        00:00:00 [psimon]
+root         233       2  0 08:21 ?        00:00:00 [kworker/u30:4-events_unbound]
+root         234       2  0 08:21 ?        00:00:00 [kworker/u30:5-events_power_efficient]
+root         235       2  0 08:21 ?        00:00:00 [kworker/u30:6-events_unbound]
+root         268       2  0 08:21 ?        00:00:00 [jbd2/xvda16-8]
+root         269       2  0 08:21 ?        00:00:00 [kworker/R-ext4-]
+systemd+     339       1  0 08:21 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+root         387       2  0 08:21 ?        00:00:00 [kworker/R-crypt]
+systemd+     462       1  0 08:21 ?        00:00:00 /usr/lib/systemd/systemd-networkd
+root         503       1  0 08:21 ?        00:00:00 /usr/sbin/acpid
+root         507       1  0 08:21 ?        00:00:00 /usr/sbin/cron -f -P
+message+     508       1  0 08:21 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         515       1  0 08:21 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+polkitd      516       1  0 08:21 ?        00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+root         525       1  0 08:21 ?        00:00:00 /snap/amazon-ssm-agent/7993/amazon-ssm-agent
+root         543       1  0 08:21 ?        00:00:02 /usr/lib/snapd/snapd
+root         565       1  0 08:21 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root         583       1  0 08:21 ?        00:00:00 /usr/libexec/udisks2/udisksd
+syslog       636       1  0 08:21 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         667       1  0 08:21 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+_chrony      701       1  0 08:21 ?        00:00:00 /usr/sbin/chronyd -F 1
+_chrony      705     701  0 08:21 ?        00:00:00 /usr/sbin/chronyd -F 1
+root         739       1  0 08:21 ?        00:00:00 /usr/sbin/ModemManager
+root         778       1  0 08:21 ttyS0    00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+root         784       1  0 08:21 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         830       1  0 08:21 ?        00:00:00 sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instance-connect [listener] 0 of 10-100 startups
+root         831     830  0 08:21 ?        00:00:00 sshd: ubuntu [priv]
+ubuntu       836       1  0 08:21 ?        00:00:00 /usr/lib/systemd/systemd --user
+ubuntu       837     836  0 08:21 ?        00:00:00 (sd-pam)
+ubuntu       949     831  0 08:21 ?        00:00:02 sshd: ubuntu@pts/0
+ubuntu       950     949  0 08:21 pts/0    00:00:00 -bash
+root         993       2  0 08:21 ?        00:00:00 [kworker/R-tls-s]
+root        1054       2  0 08:27 ?        00:00:00 [kworker/0:0-mm_percpu_wq]
+root        1247       2  0 08:27 ?        00:00:00 [psimon]
+root        1310       2  0 08:34 ?        00:00:00 [kworker/u30:0]
+root        1317       2  0 08:36 ?        00:00:00 [kworker/0:1]
+ubuntu      1339     950  0 08:39 pts/0    00:00:00 /bin/bash ./nodeHealth.sh
+ubuntu      1342    1339  0 08:39 pts/0    00:00:00 ps -ef
+root         525       1  0 08:21 ?        00:00:00 /snap/amazon-ssm-agent/7993/amazon-ssm-agent
+ubuntu      1344    1339  0 08:39 pts/0    00:00:00 grep amazon
+525
+1346
